@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Михаил] (https://up.htmlacademy.ru/htmlcss/37/user/2383805).
-* Наставник: `Александр Зиновьев` (https://htmlacademy.ru/profile/id198751).
+* Студент: [Михаил Филиппов](https://up.htmlacademy.ru/htmlcss/37/user/2383805).
+* Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751).
 
 ---
 
