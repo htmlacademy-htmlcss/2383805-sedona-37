@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Global */
+
+.visually-hidden {
+ position: absolute;
+ clip: rect(1px, 1px, 1px, 1px);
+ padding:0;
+ border:0;
+ height: 1px;
+ width: 1px;
+ overflow: hidden;
+}
+
+.page-body {
+  font-family: "PT Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.all {
+  outline: 1px solid #ff0000;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Глобальная работа с текстом */
+
+.features h2,
+.sedona-specialties h2,
+.hotel-search h2,
+.subscribe h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.features h3,
+.sedona-specialties h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.p-explanation {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.features p,
+.sedona-specialties p {
+  text-align: center;
+}
+
+.p-descript {
+  margin: 0;
+}
+
+/* Main Header */
+
+.main-screen {
+  outline: 1px solid #ff0000;
+  height: 485px;
+  background-image: url("../img/main-screen.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+
+.main-screen div {
+  outline: 0px solid #ff0000;
+  width: 1200px;
+  height: 57px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("../img/decor-mask.png");
+}
+
+.main-screen img {
+  margin-top: 51px;
+}
+
+/* Site Navigation */
+
+.site-navigation {
+  padding: 0;
+  outline: 1px solid #ff0000;
+  width: 339px;
+  min-height: 50px;
+  font-size: 20px;
+  margin-left: 238px;
+  list-style: none;
+  font-weight: 700;
+  display: flex;
+}
+
+.site-navigation li {
+  margin-left: 32px;
+  padding-top: 14px;
+}
+
+.site-navigation li:first-child {
+  margin: 0;
+}
+
+.site-navigation a {
+  color: inherit;
+}
+
+/* Пользовательское меню */
+
+.navigation-user {
+  width: 268px;
+}
+
+.header-button {
+  border-style: none;
+  padding: 8px 34px;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Features */
+
+.features h2 {
+  margin-top:69px;
+  margin-bottom: 25px;
+}
+
+.sedona-reasons {
+  outline: 0px solid #ff0000;
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
+.advantages-without-img {
+  outline: 0px solid #ff0000;
+  height: 283px;
+  background-color: rgba(131,179,211,12%);
+  padding-top: 102px;
+}
+
+.advantages-list li:nth-child(3) {      /* Выбирает 3-й элемент списка внутри всего родителя, и меняет непрозрачность фона */
+  background-color: rgba(131,179,211,20%);
+}
+
+.advantages-list {
+  padding: 0;
+  margin: 0;
+}
+
+.left-descript,
+.right-descript {
+  outline: 0px solid #ff0000;
+  height: 283px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  padding-top: 102px;
+}
+
+/* Sedona Specialties */
+
+.sedona-specialties h2 {
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+
+.sedona-specialties p.p-explanation {
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+
+.sedona-specialties-list {
+  padding: 0;
+  margin: 0;
+}
+
+.item-with-icon {
+  outline: 0px solid #ff0000;
+  height: 304px;
+  text-align: center;
+  padding-top: 81px;
+}
+
+.item-with-icon h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sedona-specialties-list li:nth-child(odd) {      /* Выбирает только нечётные элементы списка */
+  background-color: rgba(131,179,211,12%);
+}
+
+/* Filters */
+
+.filters h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.filters {
+  height: 372px;
+  background-image: url("../img/hotels-bg-blure.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+/* Subscribe */
+
+.subscribe {
+  height: 318px;
+  color: #ffffff;
+  background-image: url("../img/subscribe-blure.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-top: 96px;
+}
+
+.subscribe-inner {
+  background-image: none;
+}
+
+.subscribe-inner h2 {
+  color: #000000;
+}
+
+.subscribe-inner p {
+  color: #333333;
+}
+
+.subscribe p {
+  margin-top: 20px;
+  margin-bottom: 54px;
+}
